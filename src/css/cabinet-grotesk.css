@@ -1,165 +1,8 @@
-/**
- * @license
- *
- * Font Family: Cabinet Grotesk
- * Designed by: ITF
- * URL: https://www.fontshare.com/fonts/cabinet-grotesk
- * © 2024 Indian Type Foundry
- *
- * Font Styles:
- * Cabinet Grotesk Variable(Variable font)
- * Cabinet Grotesk Thin
- * Cabinet Grotesk Extralight
- * Cabinet Grotesk Light
- * Cabinet Grotesk Regular
- * Cabinet Grotesk Medium
- * Cabinet Grotesk Bold
- * Cabinet Grotesk Extrabold         
- * Cabinet Grotesk Black
- *
-*/
-
-/**
-* This is a variable font
-* You can controll variable axes as shown below:
-* font-variation-settings: 'wght' 900.0;
-*
-* available axes:
-
-* 'wght' (range from 100.0 to 900.0)
-
-*/
-
-@font-face {
-  font-family: "CabinetGrotesk-Variable";
-  src: url("../fonts/CabinetGrotesk-Variable.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Variable.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Variable.ttf") format("truetype");
-  font-weight: 100 900;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Thin";
-  src: url("../fonts/CabinetGrotesk-Thin.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Thin.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Extralight";
-  src: url("../fonts/CabinetGrotesk-Extralight.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Extralight.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Extralight.ttf") format("truetype");
-  font-weight: 200;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Light";
-  src: url("../fonts/CabinetGrotesk-Light.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Light.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Regular";
-  src: url("../fonts/CabinetGrotesk-Regular.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Regular.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Medium";
-  src: url("../fonts/CabinetGrotesk-Medium.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Medium.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Bold";
-  src: url("../fonts/CabinetGrotesk-Bold.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Bold.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Extrabold";
-  src: url("../fonts/CabinetGrotesk-Extrabold.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Extrabold.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Extrabold.ttf") format("truetype");
-  font-weight: 800;
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "CabinetGrotesk-Black";
-  src: url("../fonts/CabinetGrotesk-Black.woff2") format("woff2"),
-    url("../fonts/CabinetGrotesk-Black.woff") format("woff"),
-    url("../fonts/CabinetGrotesk-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-display: swap;
-  font-style: normal;
-}
-
-/**
- * @license
- *
- * Font Family: Satoshi
- * Designed by: Deni Anggara
- * URL: https://www.fontshare.com/fonts/satoshi
- * © 2024 Indian Type Foundry
- *
- * Font Styles:
- * Satoshi Variable(Variable font)
- * Satoshi Variable Italic(Variable font)
- * Satoshi Light
- * Satoshi Light Italic
- * Satoshi Regular
- * Satoshi Italic
- * Satoshi Medium
- * Satoshi Medium Italic
- * Satoshi Bold
- * Satoshi Bold Italic
- * Satoshi Black
- * Satoshi Black Italic
- *
-*/
-
-/**
-* This is a variable font
-* You can controll variable axes as shown below:
-* font-variation-settings: 'wght' 900.0;
-*
-* available axes:
-
-* 'wght' (range from 300.0 to 900.0)
-
-*/
-
 @font-face {
   font-family: "Satoshi-Variable";
-  src: url("../fonts/Satoshi-Variable.woff2") format("woff2"),
-    url("../fonts/Satoshi-Variable.woff") format("woff"),
-    url("../fonts/Satoshi-Variable.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Variable.woff2") format("woff2"),
+    url("/fonts/Satoshi-Variable.woff") format("woff"),
+    url("/fonts/Satoshi-Variable.ttf") format("truetype");
   font-weight: 300 900;
   font-display: swap;
   font-style: normal;
@@ -178,9 +21,9 @@
 
 @font-face {
   font-family: "Satoshi-VariableItalic";
-  src: url("../fonts/Satoshi-VariableItalic.woff2") format("woff2"),
-    url("../fonts/Satoshi-VariableItalic.woff") format("woff"),
-    url("../fonts/Satoshi-VariableItalic.ttf") format("truetype");
+  src: url("/fonts/Satoshi-VariableItalic.woff2") format("woff2"),
+    url("/fonts/Satoshi-VariableItalic.woff") format("woff"),
+    url("/fonts/Satoshi-VariableItalic.ttf") format("truetype");
   font-weight: 300 900;
   font-display: swap;
   font-style: italic;
@@ -188,9 +31,9 @@
 
 @font-face {
   font-family: "Satoshi-Light";
-  src: url("../fonts/Satoshi-Light.woff2") format("woff2"),
-    url("../fonts/Satoshi-Light.woff") format("woff"),
-    url("../fonts/Satoshi-Light.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Light.woff2") format("woff2"),
+    url("/fonts/Satoshi-Light.woff") format("woff"),
+    url("/fonts/Satoshi-Light.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
   font-style: normal;
@@ -198,9 +41,9 @@
 
 @font-face {
   font-family: "Satoshi-LightItalic";
-  src: url("../fonts/Satoshi-LightItalic.woff2") format("woff2"),
-    url("../fonts/Satoshi-LightItalic.woff") format("woff"),
-    url("../fonts/Satoshi-LightItalic.ttf") format("truetype");
+  src: url("/fonts/Satoshi-LightItalic.woff2") format("woff2"),
+    url("/fonts/Satoshi-LightItalic.woff") format("woff"),
+    url("/fonts/Satoshi-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-display: swap;
   font-style: italic;
@@ -208,9 +51,9 @@
 
 @font-face {
   font-family: "Satoshi-Regular";
-  src: url("../fonts/Satoshi-Regular.woff2") format("woff2"),
-    url("../fonts/Satoshi-Regular.woff") format("woff"),
-    url("../fonts/Satoshi-Regular.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Regular.woff2") format("woff2"),
+    url("/fonts/Satoshi-Regular.woff") format("woff"),
+    url("/fonts/Satoshi-Regular.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -218,9 +61,9 @@
 
 @font-face {
   font-family: "Satoshi-Italic";
-  src: url("../fonts/Satoshi-Italic.woff2") format("woff2"),
-    url("../fonts/Satoshi-Italic.woff") format("woff"),
-    url("../fonts/Satoshi-Italic.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Italic.woff2") format("woff2"),
+    url("/fonts/Satoshi-Italic.woff") format("woff"),
+    url("/fonts/Satoshi-Italic.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
   font-style: italic;
@@ -228,9 +71,9 @@
 
 @font-face {
   font-family: "Satoshi-Medium";
-  src: url("../fonts/Satoshi-Medium.woff2") format("woff2"),
-    url("../fonts/Satoshi-Medium.woff") format("woff"),
-    url("../fonts/Satoshi-Medium.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Medium.woff2") format("woff2"),
+    url("/fonts/Satoshi-Medium.woff") format("woff"),
+    url("/fonts/Satoshi-Medium.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
@@ -238,9 +81,9 @@
 
 @font-face {
   font-family: "Satoshi-MediumItalic";
-  src: url("../fonts/Satoshi-MediumItalic.woff2") format("woff2"),
-    url("../fonts/Satoshi-MediumItalic.woff") format("woff"),
-    url("../fonts/Satoshi-MediumItalic.ttf") format("truetype");
+  src: url("/fonts/Satoshi-MediumItalic.woff2") format("woff2"),
+    url("/fonts/Satoshi-MediumItalic.woff") format("woff"),
+    url("/fonts/Satoshi-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-display: swap;
   font-style: italic;
@@ -248,9 +91,9 @@
 
 @font-face {
   font-family: "Satoshi-Bold";
-  src: url("../fonts/Satoshi-Bold.woff2") format("woff2"),
-    url("../fonts/Satoshi-Bold.woff") format("woff"),
-    url("../fonts/Satoshi-Bold.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Bold.woff2") format("woff2"),
+    url("/fonts/Satoshi-Bold.woff") format("woff"),
+    url("/fonts/Satoshi-Bold.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
@@ -258,9 +101,9 @@
 
 @font-face {
   font-family: "Satoshi-BoldItalic";
-  src: url("../fonts/Satoshi-BoldItalic.woff2") format("woff2"),
-    url("../fonts/Satoshi-BoldItalic.woff") format("woff"),
-    url("../fonts/Satoshi-BoldItalic.ttf") format("truetype");
+  src: url("/fonts/Satoshi-BoldItalic.woff2") format("woff2"),
+    url("/fonts/Satoshi-BoldItalic.woff") format("woff"),
+    url("/fonts/Satoshi-BoldItalic.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
   font-style: italic;
@@ -268,9 +111,9 @@
 
 @font-face {
   font-family: "Satoshi-Black";
-  src: url("../fonts/Satoshi-Black.woff2") format("woff2"),
-    url("../fonts/Satoshi-Black.woff") format("woff"),
-    url("../fonts/Satoshi-Black.ttf") format("truetype");
+  src: url("/fonts/Satoshi-Black.woff2") format("woff2"),
+    url("/fonts/Satoshi-Black.woff") format("woff"),
+    url("/fonts/Satoshi-Black.ttf") format("truetype");
   font-weight: 900;
   font-display: swap;
   font-style: normal;
@@ -278,9 +121,9 @@
 
 @font-face {
   font-family: "Satoshi-BlackItalic";
-  src: url("../fonts/Satoshi-BlackItalic.woff2") format("woff2"),
-    url("../fonts/Satoshi-BlackItalic.woff") format("woff"),
-    url("../fonts/Satoshi-BlackItalic.ttf") format("truetype");
+  src: url("/fonts/Satoshi-BlackItalic.woff2") format("woff2"),
+    url("/fonts/Satoshi-BlackItalic.woff") format("woff"),
+    url("/fonts/Satoshi-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-display: swap;
   font-style: italic;
