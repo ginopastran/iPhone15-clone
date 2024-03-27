@@ -19,7 +19,12 @@ const HowItWorks = () => {
       ease: "power2.inOut",
     });
 
-    animateWithGsap(".g_fadeIn", {
+    gsap.to(".g_fadeIn", {
+      scrollTrigger: {
+        trigger: ".g_fadeIn",
+        toggleActions: "restart reverse restart reverse",
+        start: "top 85%",
+      },
       opacity: 1,
       y: 0,
       duration: 1,
