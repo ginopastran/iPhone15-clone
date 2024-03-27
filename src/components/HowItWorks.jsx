@@ -19,17 +19,45 @@ const HowItWorks = () => {
       ease: "power2.inOut",
     });
 
-    gsap.to(".g_fadeIn", {
-      scrollTrigger: {
-        trigger: ".g_fadeIn",
-        toggleActions: "restart reverse restart reverse",
-        start: "top 85%",
-      },
-      opacity: 1,
-      y: 0,
-      duration: 1,
-      ease: "power2.inOut",
-    });
+    // gsap.to(".g_fadeIn", {
+    //   scrollTrigger: {
+    //     trigger: ".g_fadeIn",
+    //     toggleActions: "restart reverse restart reverse",
+    //     start: "top 85%",
+    //   },
+    //   opacity: 1,
+    //   y: 0,
+    //   duration: 1,
+    //   ease: "power2.inOut",
+    // });
+
+    if (window.innerWidth > 500) {
+      gsap.to(".g_fadeIn", {
+        scrollTrigger: {
+          trigger: ".g_fadeIn",
+          toggleActions: "restart reverse restart reverse",
+          start: "top 85%",
+        },
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    }
+
+    if (window.innerWidth < 500) {
+      gsap.to(".g_fadeIn", {
+        scrollTrigger: {
+          trigger: "#fadeDiv2",
+          toggleActions: "reverse restart reverse restart",
+          start: "top 85%",
+        },
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    }
   }, []);
 
   return (
@@ -78,7 +106,7 @@ const HowItWorks = () => {
         </div>
 
         <div className="hiw-text-container">
-          <div className="flex flex-1 justify-center flex-col">
+          <div id="fadeDiv2" className="flex flex-1 justify-center flex-col">
             <p className="hiw-text g_fadeIn">
               A17 Pro is an entirely new class of iPhone chip that delivers our{" "}
               <span className="text-white">

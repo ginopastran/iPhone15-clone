@@ -32,12 +32,40 @@ const Features = () => {
       },
       { scrub: 5.5 }
     );
-    animateWithGsap(".g_text", {
-      y: 0,
-      opacity: 1,
-      ease: "power2.inOut",
-      duration: 1,
-    });
+    // animateWithGsap(".g_text", {
+    //   y: 0,
+    //   opacity: 1,
+    //   ease: "power2.inOut",
+    //   duration: 1,
+    // });
+
+    if (window.innerWidth > 500) {
+      gsap.to(".g_text", {
+        scrollTrigger: {
+          trigger: "#fadeDiv1",
+          toggleActions: "restart reverse restart reverse",
+          start: "top 85%",
+        },
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    }
+
+    if (window.innerWidth < 500) {
+      gsap.to(".g_text", {
+        scrollTrigger: {
+          trigger: "#fadeDiv1",
+          toggleActions: "reverse restart reverse restart",
+          start: "top 85%",
+        },
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    }
   }, []);
 
   return (
@@ -87,7 +115,7 @@ const Features = () => {
                 </div>
               </div>
               <div className="feature-text-container">
-                <div className="flex-1 flex-center">
+                <div className="flex-1 flex-center" id="fadeDiv1">
                   <p className="feature-text g_text">
                     iPhone 15 Pro is{" "}
                     <span className=" text-white">
