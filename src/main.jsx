@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import "./cabinet-grotesk.css";
+import "./css/cabinet-grotesk.css";
 import * as Sentry from "@sentry/react";
 
 Sentry.init({

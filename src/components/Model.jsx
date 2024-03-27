@@ -78,7 +78,7 @@ const Model = () => {
               size={size}
             />
             <Canvas
-              className=" w-full h-full"
+              className=" w-full h-full "
               style={{
                 position: "fixed",
                 top: 0,
